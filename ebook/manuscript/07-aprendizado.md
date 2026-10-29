@@ -14,7 +14,7 @@ Dados ajudam quando respondem a uma pergunta. Escolha poucos sinais, registre a 
 | Convites e colaborações | Seu registro | Surgiu uma oportunidade concreta? |
 | Horas e custo | Sua planilha ou nota | O esforço cabe na sua realidade? |
 
-Registre no D−1, D+7 e D+28. Inclua acontecimentos fora da internet — apresentação, indicação, encontro — para não atribuir tudo a uma publicação. Streams e views sem contexto não medem sozinhos relação, renda ou sustentabilidade.
+Registre na véspera, depois de uma semana e ao completar um mês. Inclua acontecimentos fora da internet — apresentação, indicação, encontro — para não atribuir tudo a uma publicação. Streams e views sem contexto não medem sozinhos relação, renda ou sustentabilidade.
 
 ## Interprete sem exagerar
 

@@ -55,7 +55,7 @@ Preencha o que já sabe e marque as dúvidas. Respostas simples bastam. Atualize
 - [ ] Peças e anúncios essenciais preparados.
 - [ ] Lembretes enviados somente a quem consentiu.
 - [ ] Horas, custos, respostas e sinais registrados.
-- [ ] Revisão agendada para D+7 e D+28.
+- [ ] Revisão agendada para uma semana e um mês depois do lançamento.
 - [ ] Próximo teste escolhido com base no que aconteceu.
 
 Você não precisa fazer tudo hoje. Escolha o próximo passo possível e faça-o com cuidado. Uma faixa pode oferecer companhia, alegria, memória ou sentido a alguém; que o processo também ajude você a cuidar melhor do próximo lançamento.

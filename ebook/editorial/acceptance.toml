@@ -8,7 +8,7 @@ required = ["direitos", "público", "trecho", "link", "restrições"]
 
 [[chapter]]
 file = "03-antes.md"
-required = ["D−35", "feedback", "distribuidora", "D−1", "entrega"]
+required = ["cinco a quatro semanas antes", "feedback", "distribuidora", "na véspera", "entrega"]
 
 [[chapter]]
 file = "04-conteudo.md"
@@ -20,7 +20,7 @@ required = ["conversa", "colaboração", "créditos", "consentimento"]
 
 [[chapter]]
 file = "06-lancamento.md"
-required = ["D0", "D+1", "D+7", "D+28", "link"]
+required = ["dia do lançamento", "dia seguinte", "uma semana depois", "completar um mês", "link"]
 
 [[chapter]]
 file = "07-aprendizado.md"

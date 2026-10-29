@@ -1,8 +1,8 @@
 # Antes do lançamento: prepare e escute
 
-Use D0 para o dia da estreia. D−14 significa 14 dias antes. O calendário é uma referência de trabalho; os prazos da distribuidora e a confirmação da faixa vêm primeiro. Se ela não aparecer nas ferramentas a tempo, adie a data.
+Use as etapas como uma trilha, não como uma contagem que você precisa decorar. “Cinco semanas antes” é aproximadamente um mês antes da data prevista; se a distribuição ou sua rotina pedirem mais tempo, comece antes. A confirmação da faixa e os prazos da distribuidora vêm primeiro. Se a música não aparecer nas ferramentas a tempo, adie a estreia.
 
-## D−35 a D−28: organize a entrega
+## Cinco a quatro semanas antes: organize a entrega
 
 Finalize master e metadados. Confirme créditos, splits, licenças e autorização de samples. Escolha a distribuidora, envie com folga e confira a capa e o perfil de artista. Defina público, frase de apresentação, dois trechos e um link que possa testar.
 
@@ -10,7 +10,7 @@ Continue conhecendo artistas, produtores, espaços e ouvintes da sua cena porque
 
 **Entrega:** faixa enviada, data confirmada, direitos encaminhados e página de preparação preenchida.
 
-## D−27 a D−14: peça escuta e produza as primeiras peças
+## Quatro a duas semanas antes: peça escuta e produza as primeiras peças
 
 Convide cinco a dez ouvintes de sonoridades próximas, se conseguir. É uma meta de trabalho, não uma amostra representativa. Peça permissão antes de enviar a faixa e não escolha somente pessoas que vão elogiar para agradar.
 
@@ -30,7 +30,7 @@ Procure comunidades que permitem pedidos de feedback e explique o que procura an
 
 Essas plataformas ajudam a obter opiniões; não transformam avaliadores em uma amostra representativa do seu público. Separe feedback de escuta comum e de contratação de divulgação. Nunca interprete uma avaliação como garantia de playlist ou audiência.
 
-## Até D−14: use os recursos que existem na sua conta
+## Com pelo menos duas semanas de antecedência: confira as plataformas
 
 Quando a faixa aparecer em Próximos lançamentos, envie o pitch no Spotify for Artists. A plataforma recomenda o envio com pelo menos duas semanas para aumentar a chance de consideração editorial; o mínimo documentado de sete dias também habilita a faixa para o Release Radar dos seguidores. Pitch não garante playlist editorial. Confira os requisitos atuais antes de depender da ferramenta. [1][2]
 
@@ -42,7 +42,7 @@ Smart link reúne destinos de escuta. Pré-save permite que uma pessoa autorize 
 
 **Entrega:** pitch enviado quando elegível, recursos disponíveis anotados e link testado.
 
-## D−14 a D−1: dê contexto e prepare os avisos
+## Nas duas semanas antes: dê contexto e prepare os avisos
 
 Prepare de três a cinco peças diferentes para esse período, se a sua rotina comportar: performance, história verdadeira de um verso, detalhe de produção, pergunta ou bastidor. Agende o que já estiver pronto; não é necessário publicar diariamente.
 
@@ -64,11 +64,13 @@ Se houver falha essencial, simplifique o plano. A prioridade é que a música es
 
 | Etapa | Entrega verificável | O que observar |
 |---|---|---|
-| D−35 a D−28 | Faixa entregue, data e base confirmadas | Pendências de direitos, perfil ou distribuição |
-| D−27 a D−14 | Respostas registradas e trechos escolhidos | Palavras, situações e momentos que se repetem |
-| Até D−14 | Recursos conferidos, pitch e link prontos | Ferramentas realmente acessíveis à sua conta |
-| D−14 a D−1 | Peças e avisos preparados | Pedidos de lembrete e perguntas reais |
-| D−1 | Checklist completo | Destino e horários corretos |
+| Quando | Entrega verificável | O que observar |
+|---|---|---|
+| Cinco a quatro semanas antes | Faixa enviada, data e base confirmadas | Pendências de direitos, perfil ou distribuição |
+| Quatro a duas semanas antes | Respostas registradas e trechos escolhidos | Palavras, situações e momentos que se repetem |
+| Com duas semanas de antecedência | Recursos conferidos, pitch e link prontos | Ferramentas realmente acessíveis à sua conta |
+| Nas duas semanas antes | Peças e avisos preparados | Pedidos de lembrete e perguntas reais |
+| Na véspera | Checklist completo | Destino e horários corretos |
 
 As quantidades e a sequência deste quadro são uma proposta editorial para o piloto. Ajuste se a distribuidora, o orçamento ou sua disponibilidade pedirem outro ritmo.
 
