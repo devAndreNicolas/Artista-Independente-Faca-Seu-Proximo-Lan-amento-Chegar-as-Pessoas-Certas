@@ -69,7 +69,7 @@ class BuildTests(unittest.TestCase):
                 cover = archive.read("EPUB/cover.xhtml").decode("utf-8")
                 self.assertIn("studio-cover.jpg", cover)
                 self.assertIn("EPUB/roadmap.xhtml", archive.namelist())
-                self.assertEqual(len([name for name in archive.namelist() if name.endswith(".jpg")]), 6)
+                self.assertEqual(len([name for name in archive.namelist() if name.endswith(".jpg")]), 8)
 
     def test_pdf_has_page_tree_and_navigable_chapter_links(self):
         with tempfile.TemporaryDirectory() as temp:

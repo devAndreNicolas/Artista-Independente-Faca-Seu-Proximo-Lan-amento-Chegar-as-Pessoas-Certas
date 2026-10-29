@@ -154,6 +154,8 @@ class Layout:
         self.y = bottom - 9
 
     def section_heading(self, text: str, *, small=False) -> None:
+        if self.current_chapter == 8:
+            text = re.sub(r"^\d+\.\s*", "", text)
         accent = CHAPTER_ACCENTS[self.current_chapter-1] if self.current_chapter else CORAL
         self.ensure((100 if self.current_chapter == 9 else 125) if not small else 55)
         self.y -= 8 if not small else 4
@@ -299,7 +301,7 @@ class Layout:
     def checklist_item(self, item: str) -> None:
         value = _plain(item).removeprefix("[ ]").strip()
         x = MARGIN+27
-        width = PAGE_W-x-MARGIN
+        width = PAGE_W-x-MARGIN-20
         lines = textwrap.wrap(value, max(12, int(width/(9.5*.49))),
                               break_long_words=False) or [value]
         self.ensure(len(lines)*14+5)
@@ -479,7 +481,8 @@ def compile_pdf(root: Path, output: Path) -> Path:
         layout.destinations[f"chapter{index}"] = (len(layout.pages)-1, layout.y)
         photo_name = CHAPTER_ART[index]
         photo_key = {"studio-chapter.jpg": "StudioChapter", "roadmap-chapter.jpg": "RoadmapChapter",
-                     "recording-chapter.jpg": "RecordingChapter", "review-chapter.jpg": "ReviewChapter"}[photo_name]
+                     "recording-chapter.jpg": "RecordingChapter", "community-chapter.jpg": "CommunityChapter",
+                     "release-chapter.jpg": "ReleaseChapter", "review-chapter.jpg": "ReviewChapter"}[photo_name]
         content = parse_markdown(path.read_text(encoding="utf-8"))
         title = _plain(content[0]["text"]) if content and content[0]["type"] == "h" else path.stem
         layout.chapter_open(index+1, title, photo_key, root / "assets" / photo_name)

@@ -19,8 +19,8 @@ CHAPTER_ART = (
     "roadmap-chapter.jpg",    # Base: decisões concretas
     "roadmap-chapter.jpg",    # Preparação: organizar a rota
     "recording-chapter.jpg",  # Conteúdo: apresentar a música
-    "recording-chapter.jpg",  # Relações: criação compartilhada
-    "recording-chapter.jpg",  # Estreia: música em circulação
+    "community-chapter.jpg",  # Relações: compartilhar a música com pessoas
+    "release-chapter.jpg",    # Estreia: música em circulação
     "review-chapter.jpg",     # Aprendizado: observar sinais
     "roadmap-chapter.jpg",    # Plano: anotar próximos passos
     "review-chapter.jpg",     # Referências: voltar às fontes

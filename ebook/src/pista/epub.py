@@ -66,6 +66,8 @@ def compile_epub(root: Path, output: Path) -> Path:
         '<item id="chapter-art-a" href="images/studio-chapter.jpg" media-type="image/jpeg"/>',
         '<item id="chapter-art-b" href="images/roadmap-chapter.jpg" media-type="image/jpeg"/>',
         '<item id="chapter-art-c" href="images/recording-chapter.jpg" media-type="image/jpeg"/>',
+        '<item id="chapter-art-e" href="images/community-chapter.jpg" media-type="image/jpeg"/>',
+        '<item id="chapter-art-f" href="images/release-chapter.jpg" media-type="image/jpeg"/>',
         '<item id="chapter-art-d" href="images/review-chapter.jpg" media-type="image/jpeg"/>',
         '<item id="roadmap" href="roadmap.xhtml" media-type="application/xhtml+xml"/>',
         '<item id="pista-map" href="images/pista-map.svg" media-type="image/svg+xml"/>',
@@ -122,8 +124,7 @@ def compile_epub(root: Path, output: Path) -> Path:
         zf.writestr("EPUB/cover.xhtml", cover_doc)
         zf.writestr("EPUB/roadmap.xhtml", roadmap_doc)
         zf.writestr("EPUB/style/book.css", CSS)
-        zf.write(root / "assets" / "cover.svg", "EPUB/images/soundmark.svg")
-        for image_name in ("studio-cover.jpg", "studio-roadmap.jpg", "studio-chapter.jpg", "roadmap-chapter.jpg", "recording-chapter.jpg", "review-chapter.jpg"):
+        for image_name in ("studio-cover.jpg", "studio-roadmap.jpg", "studio-chapter.jpg", "roadmap-chapter.jpg", "recording-chapter.jpg", "community-chapter.jpg", "release-chapter.jpg", "review-chapter.jpg"):
             zf.write(root / "assets" / image_name, "EPUB/images/" + image_name)
         zf.write(root / "assets" / "pista-map.svg", "EPUB/images/pista-map.svg")
         zf.write(root / "assets" / "trilha.svg", "EPUB/images/trilha.svg")

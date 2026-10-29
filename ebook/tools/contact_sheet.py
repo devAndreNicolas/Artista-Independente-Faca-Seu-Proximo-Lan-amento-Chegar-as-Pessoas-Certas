@@ -5,6 +5,8 @@ from PIL import Image, ImageDraw
 
 source = Path(__file__).resolve().parents[1] / "build" / "preview-real"
 pages = sorted(source.glob("page-*.png"))
+for stale_sheet in source.glob("sheet-*.jpg"):
+    stale_sheet.unlink()
 for start in range(0, len(pages), 10):
     sheet = Image.new("RGB", (1600, 920), "#dedede")
     draw = ImageDraw.Draw(sheet)
