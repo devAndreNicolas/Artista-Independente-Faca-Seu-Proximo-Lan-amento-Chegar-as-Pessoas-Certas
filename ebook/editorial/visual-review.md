@@ -16,6 +16,8 @@ Data: 28 out. 2026. Arquivo: `build/pista.pdf`, 34 páginas A5. Renderização r
 - Os parágrafos passaram a usar Georgia. Seções ganharam números e linhas de orientação; as vinte ideias de conteúdo foram redesenhadas como cartões em duas colunas.
 - Títulos de seção e cabeçalhos de tabela passaram a permanecer com o conteúdo seguinte. Fechamentos repetidos e blocos de fontes duplicados foram retirados do fluxo; as referências completas continuam no capítulo final.
 - A nova inspeção de todas as 34 páginas não mostrou acentos perdidos, texto fora das margens ou páginas internas quase vazias. O sumário mantém nove links clicáveis.
+- A imagem da segunda página estava deformada: a foto vertical era esticada para uma faixa horizontal. Foi recortada em proporção compatível com a página e a nova renderização foi conferida visualmente.
+- As aberturas de relações e lançamento receberam fotografias próprias. O plano final ganhou caixas de checklist reais e os títulos desse capítulo deixaram de repetir a numeração impressa na margem.
 
 ## Limite da revisão
 
