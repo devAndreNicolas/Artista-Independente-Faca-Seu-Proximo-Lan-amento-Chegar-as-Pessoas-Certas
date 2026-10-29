@@ -1,0 +1,15 @@
+[project]
+name = "pista-ebook"
+version = "0.1.0"
+description = "Pipeline local para pesquisar, redigir e compilar o ebook PISTA"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+pista = "pista.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
