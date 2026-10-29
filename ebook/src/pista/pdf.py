@@ -296,6 +296,17 @@ class Layout:
                     self.draw_text(line_text, size=8.2, color=INK, x=x+10, y=first_detail_y-n*11)
             self.y = top-row_h-gap
 
+    def checklist_item(self, item: str) -> None:
+        value = _plain(item).removeprefix("[ ]").strip()
+        x = MARGIN+27
+        width = PAGE_W-x-MARGIN
+        lines = textwrap.wrap(value, max(12, int(width/(9.5*.49))),
+                              break_long_words=False) or [value]
+        self.ensure(len(lines)*14+5)
+        self.rect(MARGIN+7, self.y-15, 10, 10, PLUM, stroke=True)
+        self.write(value, size=9.5, leading=14, x=x, max_width=width,
+                   after=3, color=INK, keep=True)
+
 
 def _write_pdf(output: Path, layout: Layout) -> Path:
     try:
@@ -490,6 +501,9 @@ def compile_pdf(root: Path, output: Path) -> Path:
                     layout.ideas(block["items"])
                     continue
                 for item_index, item in enumerate(block["items"], 1):
+                    if index == 7 and _plain(item).startswith("[ ]"):
+                        layout.checklist_item(item)
+                        continue
                     prefix = f"{item_index}. " if kind == "ol" else "• "
                     bibliography = index == 8
                     layout.write(prefix + _plain(item), size=8.6 if bibliography else 9.8,

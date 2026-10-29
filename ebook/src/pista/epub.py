@@ -21,6 +21,8 @@ blockquote { margin: 1.4em 0; padding: .65em 1em .1em; border-left: .25em solid 
 li { margin: .48em 0; padding-left: .15em; }
 .idea-list { padding-left: 2.2em; }
 .idea-list li { background: $PAPER_ALT; border-left: .2em solid $CORAL; padding: .65em .8em; margin: .55em 0; break-inside: avoid; }
+.check { list-style: none; margin-left: -1.2em; }
+.checkbox { color: $TEAL; font-size: 1.15em; }
 figure { margin: 1.3em 0; }
 figure img { display: block; max-width: 100%; height: auto; }
 table { border-collapse: collapse; width: 100%; font-size: .88em; margin: 1.1em 0 1.4em; }

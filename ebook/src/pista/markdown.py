@@ -104,7 +104,13 @@ def to_xhtml(text: str) -> str:
             result.append(f'<blockquote><p>{block["text"]}</p></blockquote>')
         elif kind in ("ul", "ol"):
             extra = ' class="idea-list"' if kind == "ol" and len(block["items"]) == 20 else ""
-            result.append(f"<{kind}{extra}>" + "".join(f"<li>{item}</li>" for item in block["items"]) + f"</{kind}>")
+            items = []
+            for item in block["items"]:
+                if item.startswith("[ ]"):
+                    items.append(f'<li class="check"><span class="checkbox">&#x2610;</span> {item[3:].strip()}</li>')
+                else:
+                    items.append(f"<li>{item}</li>")
+            result.append(f"<{kind}{extra}>" + "".join(items) + f"</{kind}>")
         elif kind == "table":
             rows = []
             for r, cells in enumerate(block["rows"]):
