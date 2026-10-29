@@ -7,7 +7,7 @@ Guiar uma pessoa artista independente da faixa pronta a um lançamento de single
 Artista independente com uma faixa gravada ou em fase final, pouco tempo e orçamento limitado, que pode distribuir legalmente a música, publicar conteúdo próprio e acompanhar resultados.
 
 ## Posição e voz
-Minimalista, intuitiva, prática, respeitosa e encorajadora. Uma ideia por bloco. Frases curtas. Verbos de ação. Explicar termos na primeira ocorrência. Mostrar o próximo passo e como saber se foi feito. Abençoar pelo conhecimento, sem tom de guru nem culpa.
+Intuitiva, prática, respeitosa e encorajadora. Uma ideia por bloco, frases curtas e verbos de ação. Explicar termos na primeira ocorrência. Mostrar o próximo passo e como saber se foi feito. Abençoar pelo conhecimento, sem tom de guru nem culpa.
 
 ## Regras de rigor
 - Não converter hipótese em garantia.
@@ -17,4 +17,4 @@ Minimalista, intuitiva, prática, respeitosa e encorajadora. Uma ideia por bloco
 - Confirmar requisitos, custos e disponibilidade nas fontes oficiais antes da publicação final.
 
 ## Princípios de design
-Uma coluna principal, bastante espaço em branco, títulos descritivos, listas curtas, tabelas somente quando facilitam comparação. Caixas de ação recorrentes: **Faça**, **Entrega**, **Observe**.
+Design editorial caloroso com personalidade: paleta de ameixa, coral, mostarda e creme; tipografia com contraste entre títulos e leitura; ilustração vetorial ligada à música; capítulos com aberturas marcantes; cartões de ação e tabelas com cor e ritmo. Manter legibilidade e respiro, evitando páginas vazias ou aspecto de relatório técnico. Caixas de ação recorrentes: **Faça**, **Entrega**, **Observe**.

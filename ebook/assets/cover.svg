@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Disco e ondas sonoras</title>
+  <desc id="desc">Uma composição editorial com disco ameixa, anéis coral e dourados sobre fundo creme.</desc>
+  <rect width="760" height="430" rx="18" fill="#FBF5EB"/>
+  <path d="M28 56h180v14H28zm0 31h120v8H28zm0 20h150v8H28z" fill="#267064" opacity=".85"/>
+  <circle cx="505" cy="220" r="174" fill="#2D1C37"/>
+  <circle cx="505" cy="220" r="142" fill="none" stroke="#EC6856" stroke-width="7"/>
+  <circle cx="505" cy="220" r="112" fill="none" stroke="#E7B858" stroke-width="3"/>
+  <circle cx="505" cy="220" r="76" fill="none" stroke="#FBF5EB" stroke-width="3" opacity=".8"/>
+  <circle cx="505" cy="220" r="38" fill="#EC6856"/>
+  <circle cx="505" cy="220" r="10" fill="#E7B858"/>
+  <path d="M72 332h180" stroke="#EC6856" stroke-width="10" stroke-linecap="round"/>
+  <path d="M72 362h122" stroke="#E7B858" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="690" cy="62" r="16" fill="#E7B858"/>
+</svg>

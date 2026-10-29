@@ -25,11 +25,11 @@ Alguns formatos de rede podem exigir confirmação manual ou não aceitar agenda
 
 Leia comentários e mensagens. Anote pedidos de link, dúvidas e versos citados. Os dados podem chegar com atraso; registre a data em que consultou cada painel. Se ainda não houve resposta, marque isso como observação, não como falha pessoal.
 
-## Nos dois ou três dias seguintes: apresente outro ângulo
+## Entre o segundo e o terceiro dia: apresente outro ângulo
 
 Use o trecho que despertou interesse de uma forma diferente: uma performance caseira, uma história curta antes de cantar ou um detalhe da produção. Evite repostar a mesma peça sem acrescentar contexto. Se houve uma pergunta real, responda a ela.
 
-## Entre o quarto e o sexto dia: abra outra porta
+## Do quarto ao sexto dia: abra outra porta
 
 Publique uma resposta, uma versão acústica, um ensaio ou uma referência musical que tenha ligação verdadeira com a faixa. Continue participando da cena. Distribua duas a quatro peças na semana se isso for sustentável; não é obrigação postar diariamente.
 

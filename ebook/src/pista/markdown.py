@@ -90,7 +90,10 @@ def to_xhtml(text: str) -> str:
         if kind == "h":
             result.append(f'<h{block["level"]}>{block["text"]}</h{block["level"]}>')
         elif kind == "p":
-            result.append(f'<p>{block["text"]}</p>')
+            if re.match(r"<b>(Faça|Entrega|Observe):</b>", block["text"]):
+                result.append(f'<aside class="callout"><p>{block["text"]}</p></aside>')
+            else:
+                result.append(f'<p>{block["text"]}</p>')
         elif kind == "quote":
             result.append(f'<blockquote><p>{block["text"]}</p></blockquote>')
         elif kind in ("ul", "ol"):

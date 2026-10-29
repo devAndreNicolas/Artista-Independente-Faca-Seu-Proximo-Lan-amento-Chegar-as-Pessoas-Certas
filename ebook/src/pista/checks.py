@@ -35,6 +35,9 @@ def validate_manuscript(root: Path) -> list[str]:
         for required in item.get("required", []):
             if required.casefold() not in folded:
                 errors.append(f"{item['file']}: critério de cobertura ausente: {required!r}.")
+        for token in spec.get("rules", {}).get("forbidden_tokens", []):
+            if token.casefold() in folded:
+                errors.append(f"{item['file']}: notação confusa proibida no manuscrito: {token!r}.")
         for target in LINK_RE.findall(text):
             parsed = urlparse(target)
             if parsed.scheme in {"http", "https"} and parsed.netloc:

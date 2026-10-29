@@ -1,8 +1,8 @@
 # Antes do lançamento: prepare e escute
 
-Use as etapas como uma trilha, não como uma contagem que você precisa decorar. “Cinco semanas antes” é aproximadamente um mês antes da data prevista; se a distribuição ou sua rotina pedirem mais tempo, comece antes. A confirmação da faixa e os prazos da distribuidora vêm primeiro. Se a música não aparecer nas ferramentas a tempo, adie a estreia.
+O cronograma começa cerca de um mês antes da estreia e acompanha as quatro semanas seguintes. As datas são aproximadas; se a distribuidora ou sua rotina pedirem mais tempo, comece antes. Algumas tarefas podem se sobrepor. A confirmação da faixa e os prazos da distribuidora vêm primeiro. Se a música não aparecer nas ferramentas a tempo, adie a estreia.
 
-## Cinco a quatro semanas antes: organize a entrega
+## Entre 4 e 5 semanas antes: organize a entrega
 
 Finalize master e metadados. Confirme créditos, splits, licenças e autorização de samples. Escolha a distribuidora, envie com folga e confira a capa e o perfil de artista. Defina público, frase de apresentação, dois trechos e um link que possa testar.
 
@@ -10,7 +10,7 @@ Continue conhecendo artistas, produtores, espaços e ouvintes da sua cena porque
 
 **Entrega:** faixa enviada, data confirmada, direitos encaminhados e página de preparação preenchida.
 
-## Quatro a duas semanas antes: peça escuta e produza as primeiras peças
+## Entre 2 e 4 semanas antes: peça escuta e produza as primeiras peças
 
 Convide cinco a dez ouvintes de sonoridades próximas, se conseguir. É uma meta de trabalho, não uma amostra representativa. Peça permissão antes de enviar a faixa e não escolha somente pessoas que vão elogiar para agradar.
 
@@ -30,7 +30,7 @@ Procure comunidades que permitem pedidos de feedback e explique o que procura an
 
 Essas plataformas ajudam a obter opiniões; não transformam avaliadores em uma amostra representativa do seu público. Separe feedback de escuta comum e de contratação de divulgação. Nunca interprete uma avaliação como garantia de playlist ou audiência.
 
-## Com pelo menos duas semanas de antecedência: confira as plataformas
+## Pelo menos 2 semanas antes: confira as plataformas
 
 Quando a faixa aparecer em Próximos lançamentos, envie o pitch no Spotify for Artists. A plataforma recomenda o envio com pelo menos duas semanas para aumentar a chance de consideração editorial; o mínimo documentado de sete dias também habilita a faixa para o Release Radar dos seguidores. Pitch não garante playlist editorial. Confira os requisitos atuais antes de depender da ferramenta. [1][2]
 
@@ -42,7 +42,7 @@ Smart link reúne destinos de escuta. Pré-save permite que uma pessoa autorize 
 
 **Entrega:** pitch enviado quando elegível, recursos disponíveis anotados e link testado.
 
-## Nas duas semanas antes: dê contexto e prepare os avisos
+## Nas 2 semanas anteriores: dê contexto e prepare os avisos
 
 Prepare de três a cinco peças diferentes para esse período, se a sua rotina comportar: performance, história verdadeira de um verso, detalhe de produção, pergunta ou bastidor. Agende o que já estiver pronto; não é necessário publicar diariamente.
 
@@ -62,14 +62,12 @@ Se houver falha essencial, simplifique o plano. A prioridade é que a música es
 
 ## Quadro de acompanhamento
 
-| Etapa | Entrega verificável | O que observar |
-|---|---|---|
 | Quando | Entrega verificável | O que observar |
 |---|---|---|
-| Cinco a quatro semanas antes | Faixa enviada, data e base confirmadas | Pendências de direitos, perfil ou distribuição |
-| Quatro a duas semanas antes | Respostas registradas e trechos escolhidos | Palavras, situações e momentos que se repetem |
-| Com duas semanas de antecedência | Recursos conferidos, pitch e link prontos | Ferramentas realmente acessíveis à sua conta |
-| Nas duas semanas antes | Peças e avisos preparados | Pedidos de lembrete e perguntas reais |
+| Entre 4 e 5 semanas antes | Faixa enviada, data e base confirmadas | Pendências de direitos, perfil ou distribuição |
+| Entre 2 e 4 semanas antes | Respostas registradas e trechos escolhidos | Palavras, situações e momentos que se repetem |
+| Pelo menos 2 semanas antes | Recursos conferidos, pitch e link prontos | Ferramentas realmente acessíveis à sua conta |
+| Nas 2 semanas anteriores | Peças e avisos preparados | Pedidos de lembrete e perguntas reais |
 | Na véspera | Checklist completo | Destino e horários corretos |
 
 As quantidades e a sequência deste quadro são uma proposta editorial para o piloto. Ajuste se a distribuidora, o orçamento ou sua disponibilidade pedirem outro ritmo.

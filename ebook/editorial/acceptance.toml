@@ -8,7 +8,7 @@ required = ["direitos", "público", "trecho", "link", "restrições"]
 
 [[chapter]]
 file = "03-antes.md"
-required = ["cinco a quatro semanas antes", "feedback", "distribuidora", "na véspera", "entrega"]
+required = ["entre 4 e 5 semanas antes", "feedback", "distribuidora", "na véspera", "entrega"]
 
 [[chapter]]
 file = "04-conteudo.md"
@@ -36,3 +36,4 @@ required = ["Data de consulta", "Spotify", "YouTube", "Fontes do método"]
 
 [rules]
 minimum_words_per_chapter = 150
+forbidden_tokens = ["D0", "D−", "D+"]

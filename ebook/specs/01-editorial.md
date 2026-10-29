@@ -16,5 +16,6 @@
 
 ## Design
 - EPUB fluido e acessível; PDF A5 utilizável em tela e em impressão.
-- Hierarquia visual clara, espaço em branco e poucos elementos decorativos.
+- Identidade editorial calorosa e musical: ameixa, coral, mostarda e creme; composição vetorial; capítulos com abertura visual; hierarquia tipográfica expressiva.
+- Respiro sem páginas vazias; cartões de ação, listas e tabelas com contraste e ritmo.
 - Sumário navegável, links funcionais, tabelas legíveis e caracteres pt-BR preservados.

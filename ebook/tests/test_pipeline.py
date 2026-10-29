@@ -61,10 +61,12 @@ class BuildTests(unittest.TestCase):
                 self.assertEqual(archive.read("mimetype"), b"application/epub+zip")
                 self.assertEqual(archive.namelist()[0], "mimetype")
                 for name in archive.namelist():
-                    if name.endswith((".xhtml", ".opf", ".xml")):
+                    if name.endswith((".xhtml", ".opf", ".xml", ".svg")):
                         ET.fromstring(archive.read(name))
                 nav = archive.read("EPUB/nav.xhtml").decode("utf-8")
                 self.assertIn("chapter-09.xhtml", nav)
+                cover = archive.read("EPUB/cover.xhtml").decode("utf-8")
+                self.assertIn("soundmark.svg", cover)
 
     def test_pdf_has_page_tree_and_navigable_chapter_links(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -73,6 +75,8 @@ class BuildTests(unittest.TestCase):
             self.assertIn(b"/Type /Pages", data)
             self.assertIn(b"/Subtype /Link", data)
             self.assertIn(b"/Dest [", data)
+            self.assertIn(b"/BaseFont /Times-Bold", data)
+            self.assertIn(b"/MediaBox [0 0 419.53 595.28]", data)
             self.assertTrue(data.rstrip().endswith(b"%%EOF"))
             text = data.decode("latin-1")
             xref_offset = int(text.rsplit("startxref\n", 1)[1].splitlines()[0])
