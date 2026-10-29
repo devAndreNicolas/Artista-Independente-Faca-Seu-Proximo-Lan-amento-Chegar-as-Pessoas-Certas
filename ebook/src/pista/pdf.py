@@ -83,7 +83,7 @@ class Layout:
         self.raw(f"BT /{font} {size:.2f} Tf {r:.3f} {g:.3f} {b:.3f} rg 1 0 0 1 {x:.2f} {y:.2f} Tm <{_pdf_text(value)}> Tj ET")
 
     def write(self, value: str, *, size=10.2, leading=15, font="F1", color=INK, indent=0,
-              max_width=None, link: str | None = None, after=5, x=None) -> None:
+              max_width=None, link: str | None = None, after=5, x=None, keep=False) -> None:
         text = value.replace("\n", " ").strip()
         if not text:
             self.y -= leading
@@ -92,6 +92,8 @@ class Layout:
         width = max_width or (PAGE_W - start_x - MARGIN)
         chars = max(12, int(width / (size * (.55 if font == "F2" else .49))))
         wrapped = textwrap.wrap(text, width=chars, break_long_words=True, break_on_hyphens=False) or [""]
+        if keep and len(wrapped)*leading + after < PAGE_H-2*MARGIN:
+            self.ensure(len(wrapped)*leading + after)
         for line_text in wrapped:
             self.ensure(leading)
             y = self.y - leading
@@ -115,7 +117,7 @@ class Layout:
             self.rect(MARGIN, self.y - 35, PAGE_W - 2*MARGIN, 35, LILAC)
             self.rect(MARGIN, self.y - 35, 3, 35, CORAL)
         self.write(visible, indent=12 if quote else 0, color=PLUM if quote else INK,
-                   link=links[0][0] if links else None)
+                   link=links[0][0] if links else None, keep=True)
         self.y -= 3
 
     def action_card(self, label: str, markup: str) -> None:
@@ -135,16 +137,16 @@ class Layout:
         self.y = bottom - 9
 
     def section_heading(self, text: str, *, small=False) -> None:
-        self.ensure(35)
+        self.ensure(110)
         self.y -= 4
         self.rect(MARGIN, self.y-12, 3.5, 17, CORAL if not small else GOLD)
         self.write(text, size=11.5 if small else 13, leading=16 if small else 18,
                    font="F2", color=PLUM if not small else TEAL, indent=12, after=6)
 
     def chapter_open(self, number: int, title: str) -> None:
-        self.circle(PAGE_W-MARGIN-17, PAGE_H-77, 17, LILAC)
-        self.circle(PAGE_W-MARGIN-17, PAGE_H-77, 11, CORAL)
-        self.circle(PAGE_W-MARGIN-17, PAGE_H-77, 4, GOLD)
+        self.circle(PAGE_W-MARGIN-17, self.y-29, 17, LILAC)
+        self.circle(PAGE_W-MARGIN-17, self.y-29, 11, CORAL)
+        self.circle(PAGE_W-MARGIN-17, self.y-29, 4, GOLD)
         self.write(f"CAPÍTULO {number:02d}", size=8.5, leading=13, font="F2", color=CORAL, after=10)
         self.line(MARGIN, self.y, MARGIN+42, self.y, GOLD, 2.2)
         self.y -= 12
@@ -162,6 +164,39 @@ class Layout:
                    x=MARGIN+34, max_width=PAGE_W-2*MARGIN-44, after=0)
         self.internal_links[-1].append((MARGIN, bottom, PAGE_W-MARGIN, top, target))
         self.y = bottom - 4
+
+    def infographic(self, source: str) -> None:
+        if source.endswith("pista-map.svg"):
+            height = 93
+            self.ensure(height + 7)
+            top = self.y
+            self.rect(MARGIN, top-height, PAGE_W-2*MARGIN, height, PAPER_ALT)
+            centers = [MARGIN+29+i*66 for i in range(5)]
+            self.line(centers[0], top-38, centers[-1], top-38, LINE, 2)
+            for index, (x, letter, label) in enumerate(zip(centers, "PISTA", ("Público", "Identidade", "Saídas", "Tentativas", "Aprender"))):
+                fill = (PLUM, CORAL, TEAL, PLUM, CORAL)[index]
+                self.circle(x, top-38, 16, fill)
+                self.draw_text(letter, size=12, font="F2", color=PAPER, x=x-4, y=top-42)
+                self.draw_text(label, size=7.2, font="F2", color=PLUM, x=x-len(label)*1.8, y=top-73)
+            self.y = top-height-11
+        elif source.endswith("trilha.svg"):
+            height = 157
+            self.ensure(height + 7)
+            top = self.y
+            self.rect(MARGIN, top-height, PAGE_W-2*MARGIN, height, PAPER_ALT)
+            x = MARGIN+23
+            self.line(x, top-18, x, top-136, LINE, 2.5)
+            labels = (("Prepare", "cerca de 1 mês antes"), ("Escute", "nas semanas seguintes"),
+                      ("Organize", "antes da estreia"), ("Lance", "no dia combinado"),
+                      ("Aprenda", "no mês seguinte"))
+            for index, (label, timing) in enumerate(labels):
+                y = top-23-index*28
+                self.circle(x, y, 8, (PLUM, CORAL, TEAL, PLUM, CORAL)[index])
+                self.draw_text(label, size=9, font="F2", color=PLUM, x=x+17, y=y-3)
+                self.draw_text(timing, size=7.8, font="F1", color=MUTED, x=x+104, y=y-3)
+            self.y = top-height-11
+        else:
+            raise ValueError(f"Imagem sem renderização PDF: {source}")
 
     def table(self, rows: list[list[str]]) -> None:
         if not rows:
@@ -293,7 +328,15 @@ def compile_pdf(root: Path, output: Path) -> Path:
         layout.toc_item(chapter_index+1, title, chapter_index)
 
     for index, path in enumerate(chapters):
-        layout.new_page()
+        if index == 0:
+            layout.new_page()
+        else:
+            previous = len(layout.pages)
+            layout.ensure(145)
+            if len(layout.pages) == previous:
+                layout.y -= 13
+                layout.line(MARGIN, layout.y, PAGE_W-MARGIN, layout.y, LINE, .8)
+                layout.y -= 16
         layout.destinations[f"chapter{index}"] = (len(layout.pages)-1, layout.y)
         content = parse_markdown(path.read_text(encoding="utf-8"))
         title = _plain(content[0]["text"]) if content and content[0]["type"] == "h" else path.stem
@@ -315,10 +358,12 @@ def compile_pdf(root: Path, output: Path) -> Path:
                 for item_index, item in enumerate(block["items"], 1):
                     prefix = f"{item_index}. " if kind == "ol" else "• "
                     layout.write(prefix + _plain(item), size=9.8, leading=15, color=INK,
-                                 indent=8, after=2)
+                                 indent=8, after=2, keep=True)
                 layout.y -= 5
             elif kind == "table":
                 layout.table(block["rows"])
+            elif kind == "image":
+                layout.infographic(block["src"])
             elif kind == "hr":
                 layout.y -= 2; layout.line(MARGIN, layout.y, PAGE_W-MARGIN, layout.y, GOLD, .6); layout.y -= 10
     return _stdlib_pdf(output, layout)

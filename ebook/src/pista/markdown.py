@@ -44,6 +44,12 @@ def parse_markdown(text: str) -> list[dict]:
         s = raw.strip()
         if not s:
             flush_para(); flush_list(); flush_quote(); i += 1; continue
+        image_match = re.fullmatch(r"!\[([^\]]*)\]\(([^)]+)\)", s)
+        if image_match:
+            flush_para(); flush_list(); flush_quote()
+            blocks.append({"type": "image", "alt": image_match.group(1), "src": image_match.group(2)})
+            i += 1
+            continue
         if s.startswith("|") and i + 1 < len(lines) and re.match(r"^\s*\|?\s*:?-{3,}", lines[i + 1]):
             flush_para(); flush_list(); flush_quote()
             rows = []
@@ -106,4 +112,7 @@ def to_xhtml(text: str) -> str:
             result.append("<table><tbody>" + "".join(rows) + "</tbody></table>")
         elif kind == "hr":
             result.append("<hr />")
+        elif kind == "image":
+            source = block["src"].replace("../assets/", "images/")
+            result.append(f'<figure><img src="{html.escape(source, quote=True)}" alt="{html.escape(block["alt"], quote=True)}" /></figure>')
     return "\n".join(result)

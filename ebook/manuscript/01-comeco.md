@@ -20,6 +20,8 @@ PISTA é o mapa deste livro. Não é fórmula de algoritmo nem método comprovad
 
 O percurso não precisa ser perfeito. Precisa estar claro o bastante para você começar e simples o bastante para continuar. Ao terminar cada etapa, escolha o próximo passo concreto.
 
+![As cinco decisões do método PISTA: Público, Identidade, Saídas, Tentativas e Aprendizado.](../assets/pista-map.svg)
+
 ## O que este livro pede de você
 
 Você não precisa publicar todos os dias nem estar em todas as plataformas. Precisa reservar algum tempo, saber quais direitos e recursos estão disponíveis e fazer convites honestos. Se uma ferramenta não ajuda o próximo passo do ouvinte, deixe-a de lado.

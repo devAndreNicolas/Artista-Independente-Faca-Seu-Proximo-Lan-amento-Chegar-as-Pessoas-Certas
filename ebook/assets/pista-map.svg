@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">As cinco decisões do método PISTA</title>
+  <desc id="desc">Público, Identidade, Saídas, Tentativas e Aprendizado aparecem ligados em uma sequência simples.</desc>
+  <rect width="760" height="220" rx="20" fill="#F4EDE7"/>
+  <path d="M90 90H670" stroke="#D7CCD7" stroke-width="6" stroke-linecap="round"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <circle cx="90" cy="90" r="33" fill="#2D1C37"/><text x="90" y="102" font-size="30" font-weight="bold" fill="#FBF5EB">P</text><text x="90" y="159" font-size="20" fill="#302B35">Público</text>
+    <circle cx="235" cy="90" r="33" fill="#EC6856"/><text x="235" y="102" font-size="30" font-weight="bold" fill="#FBF5EB">I</text><text x="235" y="159" font-size="20" fill="#302B35">Identidade</text>
+    <circle cx="380" cy="90" r="33" fill="#267064"/><text x="380" y="102" font-size="30" font-weight="bold" fill="#FBF5EB">S</text><text x="380" y="159" font-size="20" fill="#302B35">Saídas</text>
+    <circle cx="525" cy="90" r="33" fill="#2D1C37"/><text x="525" y="102" font-size="30" font-weight="bold" fill="#FBF5EB">T</text><text x="525" y="159" font-size="20" fill="#302B35">Tentativas</text>
+    <circle cx="670" cy="90" r="33" fill="#EC6856"/><text x="670" y="102" font-size="30" font-weight="bold" fill="#FBF5EB">A</text><text x="670" y="159" font-size="20" fill="#302B35">Aprendizado</text>
+  </g>
+</svg>

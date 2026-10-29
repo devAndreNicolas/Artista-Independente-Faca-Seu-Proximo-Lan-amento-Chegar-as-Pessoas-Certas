@@ -19,6 +19,8 @@ h3 { font-size: 1.08em; margin: 1.45em 0 .5em; color: $TEAL; }
 p { margin: 0 0 1.05em; }
 blockquote { margin: 1.4em 0; padding: .65em 1em .1em; border-left: .25em solid $CORAL; background: $LILAC; color: $PLUM; }
 li { margin: .48em 0; padding-left: .15em; }
+figure { margin: 1.3em 0; }
+figure img { display: block; max-width: 100%; height: auto; }
 table { border-collapse: collapse; width: 100%; font-size: .88em; margin: 1.1em 0 1.4em; }
 th, td { border-bottom: 1px solid $LINE; padding: .62em .55em; text-align: left; vertical-align: top; }
 th { color: $PAPER; background: $PLUM; font-family: sans-serif; }
@@ -49,6 +51,8 @@ def compile_epub(root: Path, output: Path) -> Path:
         '<item id="css" href="style/book.css" media-type="text/css"/>',
         '<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>',
         '<item id="cover-art" href="images/soundmark.svg" media-type="image/svg+xml" properties="cover-image"/>',
+        '<item id="pista-map" href="images/pista-map.svg" media-type="image/svg+xml"/>',
+        '<item id="trilha" href="images/trilha.svg" media-type="image/svg+xml"/>',
     ]
     spine = ['<itemref idref="cover"/>']
     for i, path in enumerate(chapters, 1):
@@ -84,6 +88,8 @@ def compile_epub(root: Path, output: Path) -> Path:
         zf.writestr("EPUB/cover.xhtml", cover_doc)
         zf.writestr("EPUB/style/book.css", CSS)
         zf.write(root / "assets" / "cover.svg", "EPUB/images/soundmark.svg")
+        zf.write(root / "assets" / "pista-map.svg", "EPUB/images/pista-map.svg")
+        zf.write(root / "assets" / "trilha.svg", "EPUB/images/trilha.svg")
         for filename, _, body in pages:
             xhtml = ('<?xml version="1.0" encoding="utf-8"?>'
                      '<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR"><head><title>Capítulo</title>'

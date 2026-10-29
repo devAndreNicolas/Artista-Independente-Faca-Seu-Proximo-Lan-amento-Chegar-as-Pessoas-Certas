@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 355" role="img" aria-labelledby="title desc">
+  <title id="title">Trilha simples de um lançamento</title>
+  <desc id="desc">Cinco etapas: preparar com antecedência, escutar pessoas, organizar avisos, lançar e aprender no mês seguinte.</desc>
+  <rect width="760" height="355" rx="20" fill="#F4EDE7"/>
+  <path d="M80 44V300" stroke="#D7CCD7" stroke-width="7" stroke-linecap="round"/>
+  <g font-family="Arial, sans-serif" fill="#302B35">
+    <circle cx="80" cy="55" r="20" fill="#2D1C37"/><text x="120" y="62" font-size="22" font-weight="bold">Prepare</text><text x="460" y="62" font-size="18" fill="#6B616B">cerca de 1 mês antes</text>
+    <circle cx="80" cy="115" r="20" fill="#EC6856"/><text x="120" y="122" font-size="22" font-weight="bold">Escute</text><text x="460" y="122" font-size="18" fill="#6B616B">nas semanas seguintes</text>
+    <circle cx="80" cy="175" r="20" fill="#267064"/><text x="120" y="182" font-size="22" font-weight="bold">Organize</text><text x="460" y="182" font-size="18" fill="#6B616B">antes da estreia</text>
+    <circle cx="80" cy="235" r="20" fill="#2D1C37"/><text x="120" y="242" font-size="22" font-weight="bold">Lance</text><text x="460" y="242" font-size="18" fill="#6B616B">no dia combinado</text>
+    <circle cx="80" cy="295" r="20" fill="#EC6856"/><text x="120" y="302" font-size="22" font-weight="bold">Aprenda</text><text x="460" y="302" font-size="18" fill="#6B616B">no mês seguinte</text>
+  </g>
+</svg>

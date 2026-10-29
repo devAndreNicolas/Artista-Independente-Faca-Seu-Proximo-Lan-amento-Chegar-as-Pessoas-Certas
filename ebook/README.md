@@ -26,6 +26,17 @@ python -m pista.cli compile --format all
 
 Os arquivos ficam em `build/pista.epub` e `build/pista.pdf`. Se a rede estiver disponível, instale o projeto com `python -m pip install -e .` para usar o comando `pista`.
 
+## Ver páginas como imagens
+
+Para inspecionar o PDF real, instale o extra de prévia e gere PNGs:
+
+```powershell
+python -m pip install PyMuPDF
+python tools/preview_pdf.py build/pista.pdf build/preview
+```
+
+O script usa PyMuPDF e renderiza cada página a 180 DPI. Se ele não estiver instalado, gera uma prévia aproximada dos comandos vetoriais do nosso PDF e avisa isso no terminal. A prévia aproximada ajuda a encontrar falhas de paginação, mas a inspeção final deve usar os PNGs produzidos pelo PyMuPDF ou um leitor PDF.
+
 ## Ciclo SDD de escrita
 
 1. Atualize uma especificação e os critérios de aceite antes de mudar o livro ou o harness.

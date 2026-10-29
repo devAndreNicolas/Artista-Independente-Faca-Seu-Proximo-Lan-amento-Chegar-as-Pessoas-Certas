@@ -9,6 +9,9 @@ description = "Pipeline local para pesquisar, redigir e compilar o ebook PISTA"
 requires-python = ">=3.11"
 dependencies = []
 
+[project.optional-dependencies]
+preview = ["PyMuPDF>=1.24,<2"]
+
 [project.scripts]
 pista = "pista.cli:main"
 

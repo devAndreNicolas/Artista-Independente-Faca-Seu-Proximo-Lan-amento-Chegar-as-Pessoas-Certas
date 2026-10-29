@@ -2,6 +2,8 @@
 
 O cronograma começa cerca de um mês antes da estreia e acompanha as quatro semanas seguintes. As datas são aproximadas; se a distribuidora ou sua rotina pedirem mais tempo, comece antes. Algumas tarefas podem se sobrepor. A confirmação da faixa e os prazos da distribuidora vêm primeiro. Se a música não aparecer nas ferramentas a tempo, adie a estreia.
 
+![Trilha do lançamento: prepare, escute, organize, lance e aprenda.](../assets/trilha.svg)
+
 ## Entre 4 e 5 semanas antes: organize a entrega
 
 Finalize master e metadados. Confirme créditos, splits, licenças e autorização de samples. Escolha a distribuidora, envie com folga e confira a capa e o perfil de artista. Defina público, frase de apresentação, dois trechos e um link que possa testar.
