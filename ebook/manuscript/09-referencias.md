@@ -2,6 +2,10 @@
 
 Data de consulta das fontes oficiais: 28 out. 2026. Confirme novamente requisitos, ferramentas e custos antes de uma nova edição.
 
+## Fontes do método
+
+A lógica PISTA, o cronograma de trabalho, as ideias de conteúdo, as perguntas de feedback e os experimentos são propostas editoriais organizadas a partir de `docs/solução.md`. Não são uma metodologia comprovada em estudo controlado. Consulte a fonte-base e atualize estas referências antes de uma nova edição.
+
 ## Fontes oficiais de plataformas
 
 - Spotify for Artists. [Preparing for Release Day and Beyond](https://artists.spotify.com/en/blog/release-guide-preparing-for-release-day). Orientação sobre pitch e preparação de lançamento. Consultado em 28 out. 2026.
@@ -29,6 +33,3 @@ As fontes a seguir estavam listadas na fonte-base. Recursos e condições podem 
 - EDM Identity. [Salvione](https://edmidentity.com/2026/08/17/mike-salvione-interview/).
 - Reddit r/musicmarketing. [Relato individual](https://www.reddit.com/r/musicmarketing/comments/1mcgxvh). Experiência pessoal, não estimativa de mercado.
 
-## Fontes do método
-
-A lógica PISTA, o cronograma de trabalho, as ideias de conteúdo, as perguntas de feedback e os experimentos são propostas editoriais organizadas a partir de `docs/solução.md`. Não são uma metodologia comprovada em estudo controlado. Consulte a fonte-base e atualize estas referências antes de uma nova edição.

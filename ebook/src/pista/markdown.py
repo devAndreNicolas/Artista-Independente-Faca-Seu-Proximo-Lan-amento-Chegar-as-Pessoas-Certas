@@ -103,7 +103,8 @@ def to_xhtml(text: str) -> str:
         elif kind == "quote":
             result.append(f'<blockquote><p>{block["text"]}</p></blockquote>')
         elif kind in ("ul", "ol"):
-            result.append(f"<{kind}>" + "".join(f"<li>{item}</li>" for item in block["items"]) + f"</{kind}>")
+            extra = ' class="idea-list"' if kind == "ol" and len(block["items"]) == 20 else ""
+            result.append(f"<{kind}{extra}>" + "".join(f"<li>{item}</li>" for item in block["items"]) + f"</{kind}>")
         elif kind == "table":
             rows = []
             for r, cells in enumerate(block["rows"]):

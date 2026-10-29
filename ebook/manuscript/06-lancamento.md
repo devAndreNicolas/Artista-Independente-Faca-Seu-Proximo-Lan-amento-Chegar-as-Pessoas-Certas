@@ -45,8 +45,4 @@ Exemplo hipotético: repetir a performance que trouxe pedidos de link, ajustar o
 
 ## Da segunda à quarta semana: mantenha uma continuidade possível
 
-Se ainda houver ideias e energia, publique uma ou duas peças por semana: versão ao vivo, bastidor, história da letra ou cover de referência com uma ponte clara para a autoral. Acompanhe os dados, convide quem interagiu para um show ou próxima faixa e respeite as escolhas das pessoas.
-
-Ao completar um mês, feche um registro simples de resultados, horas e custos. Use o que aprendeu para planejar o próximo passo, não para prometer que o próximo lançamento repetirá o mesmo resultado.
-
-**Entrega:** link correto, conversas respondidas, sinais registrados e uma decisão de continuidade.
+Se ainda houver ideias e energia, publique uma ou duas peças por semana: versão ao vivo, bastidor, história da letra ou cover de referência com uma ponte clara para a autoral. Acompanhe os dados, convide quem interagiu para um show ou próxima faixa e respeite as escolhas das pessoas. Ao completar um mês, registre resultados, horas e custos; escolha o próximo passo.

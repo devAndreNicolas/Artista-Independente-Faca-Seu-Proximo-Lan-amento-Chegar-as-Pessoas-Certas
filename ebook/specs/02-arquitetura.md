@@ -23,5 +23,6 @@
 ## Restrições
 - Sem chamada de API LLM ou segredo obrigatório; Codex faz a redação.
 - Execução local em Python 3.12 no Windows.
+- PyMuPDF é obrigatório para compilar o PDF com acentos e gerar imagens reais das páginas. EPUB, busca e validação funcionam sem ele.
 - Dependências de compilação são declaradas no `pyproject.toml` e instaladas no venv do projeto.
 - Erros de cobertura ou referências inválidas bloqueiam a compilação; dependência ausente informa comando de instalação.

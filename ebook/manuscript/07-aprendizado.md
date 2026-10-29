@@ -31,7 +31,7 @@ Primeiro, cubra o que permite lançar com segurança: distribuição, direitos e
 
 Antes de gastar, escreva o que quer descobrir, o limite que pode perder e como vai reconhecer um resultado útil. Anúncio é opcional: teste uma peça que já provocou interesse e tenha destino claro. Pause se houver cliques sem sinal de escuta ou conversa.
 
-Não compre streams, seguidores ou promessa de playlist. Spotify proíbe serviços de terceiros que garantem streams ou posicionamento em playlists em troca de dinheiro; streams artificiais podem ser removidos e gerar outras medidas. [1]
+Não compre streams, seguidores ou promessa de playlist. Spotify proíbe serviços de terceiros que garantem streams ou posicionamento em playlists em troca de dinheiro; streams artificiais podem ser removidos e gerar outras medidas.
 
 ## Escreva uma hipótese pequena
 
@@ -59,6 +59,3 @@ Escolha uma coisa para repetir, uma para ajustar e uma para testar. Se nenhuma p
 
 As plataformas documentam ferramentas, políticas e métricas disponíveis. Isso não demonstra que uma campanha terá resultado. PISTA, cadência de conteúdo, roteiros, prioridades de gastos e metas de aprendizado são propostas editoriais a validar no piloto. O valor deste guia depende de registrar a prática com honestidade e atualizá-lo à medida que surgirem dados reais.
 
-## Fonte desta etapa
-
-[1] [Spotify for Artists — streaming artificial](https://artists.spotify.com/artificial-streaming). A plataforma proíbe serviços que prometem streams ou playlists pagas e descreve medidas aplicáveis; consulta: 28 out. 2026.

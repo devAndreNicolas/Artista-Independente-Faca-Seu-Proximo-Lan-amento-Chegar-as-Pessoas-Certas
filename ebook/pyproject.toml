@@ -7,10 +7,10 @@ name = "pista-ebook"
 version = "0.1.0"
 description = "Pipeline local para pesquisar, redigir e compilar o ebook PISTA"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["PyMuPDF>=1.24,<3"]
 
 [project.optional-dependencies]
-preview = ["PyMuPDF>=1.24,<2"]
+preview = ["Pillow>=10,<12"]
 
 [project.scripts]
 pista = "pista.cli:main"

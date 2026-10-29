@@ -43,7 +43,7 @@ Ao gravar cover, identifique a obra e o artista original e siga as regras da pla
 
 Celular apoiado, ambiente real, voz compreensível e poucos cortes bastam para testar uma ideia. Você pode gravar no quarto, mostrar um ensaio ou explicar uma escolha musical. Não precisa comprar equipamento para validar se aquele jeito de apresentar a faixa abre uma conversa.
 
-Se usar Shorts, o YouTube recomenda testar formatos e acompanhar métricas como visualizações da música, criações e inscritos associados. Use o áudio oficial quando disponível. As orientações da plataforma mudam; consulte o material atualizado antes de montar uma rotina fixa. [1]
+Se usar Shorts, o YouTube recomenda testar formatos e acompanhar métricas como visualizações da música, criações e inscritos associados. Use o áudio oficial quando disponível. As orientações da plataforma mudam; consulte o material atualizado antes de montar uma rotina fixa.
 
 ## Convide com respeito
 
@@ -53,10 +53,4 @@ Antes de lançar, ofereça um aviso para quem demonstrou interesse e aceite a re
 
 Para cada peça, mantenha um registro de data, rede, ângulo, trecho, horas, gasto, visualizações, retenção quando disponível, respostas específicas, visitas e cliques. Compare publicações com objetivos parecidos. View ou clique não prova que houve escuta da faixa completa.
 
-**Entrega:** algumas peças diferentes, cada uma com um motivo claro para existir.
 
-**Observe:** perguntas, pedidos de link, versos citados, visitas e pessoas que voltam. Use esses sinais para decidir o próximo teste.
-
-## Fonte desta etapa
-
-[1] [YouTube para Artistas — Shorts para artistas](https://artists.youtube/intl/pt-BR/resources/shorts-for-artists/). A página sugere testar ideias, usar o áudio oficial quando disponível e observar métricas; consulta: 28 out. 2026.

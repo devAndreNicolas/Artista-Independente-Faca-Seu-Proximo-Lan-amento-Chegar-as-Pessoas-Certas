@@ -32,4 +32,3 @@ Anote quem volta às conversas, pergunta pela música, acompanha seu trabalho ou
 
 **Faça:** participe com curiosidade e contexto.
 
-**Observe:** afinidade, disponibilidade e oportunidades concretas, sem contar interações como dívida.

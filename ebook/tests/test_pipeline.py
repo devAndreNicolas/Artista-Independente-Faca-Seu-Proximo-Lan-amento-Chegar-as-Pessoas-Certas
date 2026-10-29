@@ -3,6 +3,7 @@ import unittest
 import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
+import pymupdf
 
 from pista.checks import validate_manuscript
 from pista.epub import compile_epub
@@ -66,21 +67,21 @@ class BuildTests(unittest.TestCase):
                 nav = archive.read("EPUB/nav.xhtml").decode("utf-8")
                 self.assertIn("chapter-09.xhtml", nav)
                 cover = archive.read("EPUB/cover.xhtml").decode("utf-8")
-                self.assertIn("soundmark.svg", cover)
+                self.assertIn("studio-cover.jpg", cover)
+                self.assertIn("EPUB/roadmap.xhtml", archive.namelist())
+                self.assertEqual(len([name for name in archive.namelist() if name.endswith(".jpg")]), 6)
 
     def test_pdf_has_page_tree_and_navigable_chapter_links(self):
         with tempfile.TemporaryDirectory() as temp:
-            data = compile_pdf(ROOT, Path(temp) / "book.pdf").read_bytes()
-            self.assertTrue(data.startswith(b"%PDF-1.7"))
-            self.assertIn(b"/Type /Pages", data)
-            self.assertIn(b"/Subtype /Link", data)
-            self.assertIn(b"/Dest [", data)
-            self.assertIn(b"/BaseFont /Times-Bold", data)
-            self.assertIn(b"/MediaBox [0 0 419.53 595.28]", data)
-            self.assertTrue(data.rstrip().endswith(b"%%EOF"))
-            text = data.decode("latin-1")
-            xref_offset = int(text.rsplit("startxref\n", 1)[1].splitlines()[0])
-            self.assertEqual(text[xref_offset:xref_offset+4], "xref")
+            path = compile_pdf(ROOT, Path(temp) / "book.pdf")
+            with pymupdf.open(path) as document:
+                self.assertGreater(len(document), 20)
+                self.assertEqual(len(document[2].get_links()), 9)
+                self.assertIn("Faça", document[0].get_text())
+                self.assertIn("próximo", document[0].get_text())
+                self.assertNotIn("\ufffd", "".join(page.get_text() for page in document))
+                self.assertTrue(document[0].get_images())
+                self.assertAlmostEqual(document[0].rect.width, 419.53, places=1)
 
 
 if __name__ == "__main__":

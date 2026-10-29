@@ -22,6 +22,10 @@ O percurso não precisa ser perfeito. Precisa estar claro o bastante para você 
 
 ![As cinco decisões do método PISTA: Público, Identidade, Saídas, Tentativas e Aprendizado.](../assets/pista-map.svg)
 
+## Abençoar também é dar clareza
+
+Seu trabalho merece cuidado, e você também. O valor de um lançamento não cabe em um contador de plays. Uma conversa sincera, uma pessoa que volta para ouvir, uma parceria ou uma decisão melhor para a próxima faixa também são sinais que vale registrar.
+
 ## O que este livro pede de você
 
 Você não precisa publicar todos os dias nem estar em todas as plataformas. Precisa reservar algum tempo, saber quais direitos e recursos estão disponíveis e fazer convites honestos. Se uma ferramenta não ajuda o próximo passo do ouvinte, deixe-a de lado.
@@ -38,10 +42,5 @@ Abra uma nota e escreva, sem tentar deixar bonito:
 - Qual é meu limite de gasto?
 - O que já tenho: faixa, arte, perfil, contatos, equipamento ou ajuda?
 
-**Feito é melhor que perfeito:** uma resposta concreta agora ajuda mais do que um plano genérico para um futuro ideal.
 
-## Abençoar também é dar clareza
 
-Seu trabalho merece cuidado, e você também. O valor de um lançamento não cabe em um contador de plays. Uma conversa sincera, uma pessoa que volta para ouvir, uma parceria ou uma decisão melhor para a próxima faixa também são sinais que vale registrar.
-
-Siga no seu ritmo. Use este guia como apoio, não como cobrança. O próximo capítulo ajuda a transformar a música e as suas condições reais em um plano possível.

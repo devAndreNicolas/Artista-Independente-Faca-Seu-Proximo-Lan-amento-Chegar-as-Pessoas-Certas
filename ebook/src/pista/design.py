@@ -13,6 +13,19 @@ PALETTE = {
     "line": "#D7CCD7",
 }
 
+# A fotografia acompanha o assunto de cada capítulo, sem repetir um motivo único.
+CHAPTER_ART = (
+    "studio-chapter.jpg",     # Começo: espaço de criação
+    "roadmap-chapter.jpg",    # Base: decisões concretas
+    "roadmap-chapter.jpg",    # Preparação: organizar a rota
+    "recording-chapter.jpg",  # Conteúdo: apresentar a música
+    "recording-chapter.jpg",  # Relações: criação compartilhada
+    "recording-chapter.jpg",  # Estreia: música em circulação
+    "review-chapter.jpg",     # Aprendizado: observar sinais
+    "roadmap-chapter.jpg",    # Plano: anotar próximos passos
+    "review-chapter.jpg",     # Referências: voltar às fontes
+)
+
 
 def rgb(token: str) -> tuple[float, float, float]:
     value = PALETTE[token].lstrip("#")
