@@ -1,45 +1,79 @@
 # Antes do lançamento: prepare e escute
 
-Use D0 para o dia do lançamento. D−14 significa 14 dias antes. O cronograma é uma referência: siga o prazo da distribuidora e adie se a faixa ou a entrega não estiver pronta.
+Use D0 para o dia da estreia. D−14 significa 14 dias antes. O calendário é uma referência de trabalho; os prazos da distribuidora e a confirmação da faixa vêm primeiro. Se ela não aparecer nas ferramentas a tempo, adie a data.
 
-## D−35 a D−28: deixe a estreia organizada
+## D−35 a D−28: organize a entrega
 
-Finalize master e metadados, confirme direitos e créditos, envie a faixa com folga e prepare a capa. Preencha sua página de preparação. Confira os perfis de artista e comece a acompanhar pessoas e trabalhos da sua cena porque você tem interesse neles, não como uma troca automática por divulgação.
+Finalize master e metadados. Confirme créditos, splits, licenças e autorização de samples. Escolha a distribuidora, envie com folga e confira a capa e o perfil de artista. Defina público, frase de apresentação, dois trechos e um link que possa testar.
 
-**Entrega:** data confirmada, faixa enviada e pendências registradas.
+Continue conhecendo artistas, produtores, espaços e ouvintes da sua cena porque você se interessa pelo trabalho deles. Relações não são uma sequência de ações para cobrar divulgação depois.
 
-## D−27 a D−14: peça escuta e feedback
+**Entrega:** faixa enviada, data confirmada, direitos encaminhados e página de preparação preenchida.
 
-Convide de cinco a dez ouvintes com afinidade musical, se conseguir. Esse número é uma meta inicial de trabalho, não uma amostra representativa. Peça permissão antes de enviar a música. Se usar um serviço de feedback, confira custo, regras e o tipo de pessoa que vai avaliar.
+## D−27 a D−14: peça escuta e produza as primeiras peças
 
-Faça perguntas específicas:
+Convide cinco a dez ouvintes de sonoridades próximas, se conseguir. É uma meta de trabalho, não uma amostra representativa. Peça permissão antes de enviar a faixa e não escolha somente pessoas que vão elogiar para agradar.
+
+Faça perguntas concretas:
 
 - O que ficou na cabeça?
 - Em que situação você ouviria isso?
 - Qual trecho daria vontade de ouvir o resto?
 
-Registre quem respondeu, o trecho citado, as palavras usadas e uma decisão possível. Ouvintes, artistas, produtores e curadores oferecem perspectivas diferentes. Não confunda opinião profissional com previsão do gosto de futuros fãs.
+Registre quem respondeu — ouvinte, artista, produtor ou curador —, o trecho citado, as palavras usadas, ressalvas e uma ação possível. Perspectivas diferentes ajudam em decisões diferentes. Feedback profissional não prevê automaticamente o gosto de futuros fãs.
 
-Se as respostas forem vagas, faça uma pergunta mais concreta. Como a master já foi entregue, alterar a gravação pode afetar prazos; consulte a distribuidora antes de trocar arquivo ou data.
+Se as respostas forem vagas, pergunte sobre um detalhe. Como a master já foi enviada, consulte a distribuidora antes de alterar arquivo ou data. Em paralelo, grave rascunhos de conteúdos simples para testar ângulos, não para cumprir uma cota.
 
-## Até D−14: confira os recursos disponíveis
+### Se você ainda não tem ouvintes para convidar
 
-Quando a faixa aparecer em Próximos lançamentos, envie o pitch no Spotify for Artists se a ferramenta estiver disponível. O Spotify recomenda enviar com antecedência; o pitch não garante inclusão em playlist editorial.
+Procure comunidades que permitem pedidos de feedback e explique o que procura antes de enviar a música. Outra possibilidade é uma plataforma de avaliação. A Groover descreve feedback escrito de curadores/profissionais e informa que a resposta é privada entre artista e avaliador; a perspectiva depende do perfil escolhido. O SubmitHub descreve a área Hot or Not como troca em que participantes avaliam músicas de outros artistas. Em ambos os casos, confira condições, custos, regras e afinidade de gênero na própria conta antes de decidir. [3][4]
 
-Confira também o painel da distribuidora e, se houver, pergunte ao selo ou à gravadora sobre smart link, pré-save, peças, agendamento, relatórios e ações previstas. Anote o que está incluído, quem responde e qual prazo se aplica. Disponibilidade e preço variam conforme conta e acordo.
+Essas plataformas ajudam a obter opiniões; não transformam avaliadores em uma amostra representativa do seu público. Separe feedback de escuta comum e de contratação de divulgação. Nunca interprete uma avaliação como garantia de playlist ou audiência.
 
-## D−14 a D−1: programe e mantenha presença
+## Até D−14: use os recursos que existem na sua conta
 
-Prepare algumas publicações com ângulos diferentes: performance, história de um verso, detalhe de produção ou pergunta genuína. Agende o que já estiver pronto. Convide interessados para um lembrete somente com consentimento. Continue participando das conversas da sua cena e explore colaboração se houver afinidade e abertura.
+Quando a faixa aparecer em Próximos lançamentos, envie o pitch no Spotify for Artists. A plataforma recomenda o envio com pelo menos duas semanas para aumentar a chance de consideração editorial; o mínimo documentado de sete dias também habilita a faixa para o Release Radar dos seguidores. Pitch não garante playlist editorial. Confira os requisitos atuais antes de depender da ferramenta. [1][2]
 
-**Não é obrigação postar diariamente.** A cadência sugerida na fonte-base é um ponto de partida para o piloto. Ajuste ao tempo disponível e observe qualidade das respostas, não apenas volume de publicações.
+Entre no painel da distribuidora e procure áreas como Marketing, Promoção, Ferramentas ou Lançamento. Pergunte ao selo ou à gravadora o que está incluído, quem fará cada ação, em qual prazo e com qual custo.
 
-## Checklist da véspera
+Como exemplos sujeitos ao plano e à disponibilidade atual: a DistroKid informa que o HyperFollow criado para um lançamento pode atualizar com links de streaming quando a faixa sai; páginas criadas avulsas podem não ter essa função. A CD Baby informa que seus artistas podem acessar campanhas Show.co pelo painel; anúncios podem ter custo adicional. Confirme a condição da sua conta e o destino do link antes de divulgar. [5][6]
 
-- O link abre o perfil e a faixa corretos?
-- Legendas, vídeo e capa estão prontos?
-- Os horários de publicação estão confirmados?
-- Quem pediu um aviso consentiu em recebê-lo?
-- Você sabe quanto tempo vai reservar para acompanhar a estreia?
+Smart link reúne destinos de escuta. Pré-save permite que uma pessoa autorize uma ação futura conforme as regras do serviço. Canvas, pitch, relatórios ou agendamento só entram no seu plano se estiverem disponíveis e ajudarem o caminho do ouvinte.
 
-Se algo essencial falhar, simplifique o plano e corrija primeiro o caminho para ouvir.
+**Entrega:** pitch enviado quando elegível, recursos disponíveis anotados e link testado.
+
+## D−14 a D−1: dê contexto e prepare os avisos
+
+Prepare de três a cinco peças diferentes para esse período, se a sua rotina comportar: performance, história verdadeira de um verso, detalhe de produção, pergunta ou bastidor. Agende o que já estiver pronto; não é necessário publicar diariamente.
+
+Convide interessados para receber um lembrete e registre o consentimento e o canal escolhido. Programe os avisos permitidos pela ferramenta. Se alguém pediu DM e a rede não oferece automação compatível, deixe um lembrete para enviar manualmente.
+
+Continue participando das conversas da cena. Explore colaboração se surgir afinidade e disponibilidade dos dois lados. Para curadores, rádios, imprensa ou casas, use o canal formal e as informações solicitadas.
+
+## Véspera: reduza o trabalho do dia seguinte
+
+- Confira o link no celular e confirme o destino.
+- Deixe vídeo, legenda, capa e horário prontos.
+- Verifique avisos e autorizações de quem pediu lembrete.
+- Carregue ou agende o visualizer, se fizer parte do plano.
+- Reserve tempo para conferir a publicação e responder pessoas.
+
+Se houver falha essencial, simplifique o plano. A prioridade é que a música esteja correta, acessível e apresentada com clareza.
+
+## Quadro de acompanhamento
+
+| Etapa | Entrega verificável | O que observar |
+|---|---|---|
+| D−35 a D−28 | Faixa entregue, data e base confirmadas | Pendências de direitos, perfil ou distribuição |
+| D−27 a D−14 | Respostas registradas e trechos escolhidos | Palavras, situações e momentos que se repetem |
+| Até D−14 | Recursos conferidos, pitch e link prontos | Ferramentas realmente acessíveis à sua conta |
+| D−14 a D−1 | Peças e avisos preparados | Pedidos de lembrete e perguntas reais |
+| D−1 | Checklist completo | Destino e horários corretos |
+
+As quantidades e a sequência deste quadro são uma proposta editorial para o piloto. Ajuste se a distribuidora, o orçamento ou sua disponibilidade pedirem outro ritmo.
+
+## Fontes desta etapa
+
+[1] [Spotify for Artists — preparação para o lançamento](https://artists.spotify.com/en/blog/release-guide-preparing-for-release-day). Recomenda pitch com pelo menos duas semanas. [2] [Spotify Support — pitch para editores](https://support.spotify.com/to/artists/article/pitching-music-to-playlist-editors/). Explica o limiar de sete dias para Release Radar e consideração editorial. Consulta: 28 out. 2026.
+
+[3] [Groover — feedback e privacidade](https://help.groover.co/pt-BR/articles/2966518-o-que-pode-ser-esperado-do-feedback-recebido-as-respostas-sao-privadas). [4] [SubmitHub — Hot or Not](https://www.submithub.com/story/hot-or-not-updates). [5] [DistroKid — HyperFollow](https://support.distrokid.com/hc/en-us/articles/360013647913-What-Is-HyperFollow). [6] [CD Baby — Show.co](https://support.cdbaby.com/hc/en-us/articles/115000523266-Understanding-Show-co). Consultados em 28 out. 2026.

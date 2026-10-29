@@ -1,30 +1,51 @@
 # Aprenda com o lançamento
 
-Dados ajudam quando respondem a uma pergunta. Escolha poucos sinais e registre-os em períodos comparáveis. As ferramentas podem atualizar com atraso e oferecer métricas diferentes.
+Dados ajudam quando respondem a uma pergunta. Escolha poucos sinais, registre a data e compare períodos equivalentes. Painéis podem ter atrasos e métricas diferentes.
 
 ## Um painel enxuto
 
-| Sinal | Pergunta |
-|---|---|
-| Respostas específicas | A música abriu conversa? |
-| Cliques e origem | Que caminho levou alguém ao link? |
-| Ouvintes, streams e repetição | Houve escuta e retorno? |
-| Saves e seguidores, quando disponíveis | Alguém quis guardar ou acompanhar? |
-| Retenção e comentários nos vídeos | Que apresentação sustentou interesse? |
-| Convites, shows ou colaborações | Surgiu uma oportunidade concreta? |
-| Horas e custo | O esforço cabe na sua realidade? |
+| Sinal | Onde procurar | Pergunta |
+|---|---|---|
+| Respostas específicas | Comentários, mensagens e lista consentida | A música abriu conversa? |
+| Cliques e origem | Link e origem declarada | Que caminho levou alguém ao destino? |
+| Ouvintes e streams | Painel da plataforma | Houve escuta e repetição? |
+| Saves e seguidores | Painel, se disponível | Alguém quis guardar ou acompanhar? |
+| Retenção e comentários | Analytics de cada rede | Que apresentação sustentou interesse? |
+| Convites e colaborações | Seu registro | Surgiu uma oportunidade concreta? |
+| Horas e custo | Sua planilha ou nota | O esforço cabe na sua realidade? |
 
-Anote no D−1, D+7 e D+28. Compare períodos equivalentes e registre acontecimentos fora da internet, como apresentações e indicações. Não atribua causalidade a um post só porque ele aconteceu antes de um resultado.
+Registre no D−1, D+7 e D+28. Inclua acontecimentos fora da internet — apresentação, indicação, encontro — para não atribuir tudo a uma publicação. Streams e views sem contexto não medem sozinhos relação, renda ou sustentabilidade.
 
-## Decida o que fazer com o dinheiro
+## Interprete sem exagerar
 
-Distribuição e materiais necessários vêm primeiro. Faça o trabalho orgânico com os recursos disponíveis. Se houver orçamento, considere um gasto quando ele remove um gargalo que você observou: por exemplo, uma dúvida de feedback que não conseguiu responder ou uma captação ao vivo que vale testar.
+- Muitas visualizações sem resposta podem indicar que o começo chamou atenção, mas o convite ou a música não avançaram a conversa.
+- Cliques sem escuta podem indicar destino confuso, incompatibilidade de público ou simples curiosidade. Verifique antes de concluir.
+- Poucos cliques e conversas específicas podem revelar um público pequeno, mas interessado.
+- Dados de uma semana são sinais iniciais. Um lançamento não prova causalidade nem permite prever o seguinte.
 
-Defina o limite que pode perder e o que quer aprender antes de gastar. Anúncio é opcional; teste uma peça que já provocou interesse e tenha destino claro. Pause se houver cliques sem sinal de escuta ou conversa. Nunca compre streams, seguidores ou promessa de playlist.
+Use essas leituras como perguntas para investigar, não como explicação automática.
 
-## Revise em 28 dias
+## Escolha com cuidado onde gastar
 
-Responda com honestidade:
+Primeiro, cubra o que permite lançar com segurança: distribuição, direitos e materiais necessários. Faça o trabalho orgânico com o que você já tem. Se houver orçamento, use-o para remover um gargalo demonstrado — por exemplo, uma dúvida de feedback ou uma captação ao vivo que vale testar.
+
+Antes de gastar, escreva o que quer descobrir, o limite que pode perder e como vai reconhecer um resultado útil. Anúncio é opcional: teste uma peça que já provocou interesse e tenha destino claro. Pause se houver cliques sem sinal de escuta ou conversa.
+
+Não compre streams, seguidores ou promessa de playlist. Spotify proíbe serviços de terceiros que garantem streams ou posicionamento em playlists em troca de dinheiro; streams artificiais podem ser removidos e gerar outras medidas. [1]
+
+## Escreva uma hipótese pequena
+
+Uma hipótese liga uma apresentação a um sinal observável. Por exemplo: “mostrar o verso com a situação da letra vai gerar mais respostas específicas do que postar somente a capa”. Publique peças comparáveis, mude uma coisa por vez quando sua audiência for pequena e registre contexto. Isso não é um teste controlado, mas ajuda a decidir o que tentar em seguida.
+
+Para o piloto, ideias possíveis:
+
+- Uma situação emocional pode abrir mais conversa do que apenas a capa e a data.
+- Uma performance simples pode gerar mais pedidos de link do que um bastidor.
+- Uma colaboração alinhada pode levar ouvintes intencionais de uma cena próxima.
+
+Não teste tudo ao mesmo tempo se o grupo for pequeno. Um resultado isolado produz indícios, não prova universal.
+
+## Revisão de 28 dias
 
 1. O que as pessoas citaram ou fizeram espontaneamente?
 2. Que peça trouxe interesse mais específico?
@@ -32,8 +53,12 @@ Responda com honestidade:
 4. O que consumiu tempo ou dinheiro sem ajudar?
 5. Qual é o menor teste útil para a próxima faixa?
 
-Um lançamento isolado gera indícios e ensina sobre execução. Não prova causalidade nem garante que o mesmo resultado se repita com outro artista.
+Escolha uma coisa para repetir, uma para ajustar e uma para testar. Se nenhuma peça funcionou como esperado, registre isso e reveja público, trecho, convite e destino. Não esconda uma hipótese que falhou: ela também informa sua próxima decisão.
 
-## O que sabemos e o que o piloto deve validar
+## O que sabemos e o que ainda estamos aprendendo
 
-As plataformas documentam ferramentas e métricas disponíveis em suas contas. Isso não comprova que uma campanha terá resultado. A sequência PISTA, o volume sugerido de conteúdo, os roteiros e as prioridades de gasto são recomendações para testar. Registre os resultados, inclusive quando uma hipótese falhar. O livro melhora quando descreve o que aconteceu de verdade.
+As plataformas documentam ferramentas, políticas e métricas disponíveis. Isso não demonstra que uma campanha terá resultado. PISTA, cadência de conteúdo, roteiros, prioridades de gastos e metas de aprendizado são propostas editoriais a validar no piloto. O valor deste guia depende de registrar a prática com honestidade e atualizá-lo à medida que surgirem dados reais.
+
+## Fonte desta etapa
+
+[1] [Spotify for Artists — streaming artificial](https://artists.spotify.com/artificial-streaming). A plataforma proíbe serviços que prometem streams ou playlists pagas e descreve medidas aplicáveis; consulta: 28 out. 2026.

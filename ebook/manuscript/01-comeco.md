@@ -6,7 +6,7 @@ Você tem uma música gravada ou perto da versão final. Quer lançar com cuidad
 
 O objetivo é ajudar você a sair de uma faixa pronta e chegar a um lançamento publicado, apresentado às pessoas certas e revisto com atenção ao que aconteceu. Você vai organizar o trabalho em passos pequenos: preparar, contar, convidar, conversar e aprender.
 
-Não existe promessa honesta de streams, viralização, playlist, shows ou renda. O que existe é um processo que você consegue executar, observar e melhorar.
+Não existe promessa honesta de streams, viralização, playlist, shows ou renda. Esses são limites importantes do que um método pode afirmar. O que existe é um processo que você consegue executar, observar e melhorar.
 
 ## A ideia central: PISTA
 
@@ -18,7 +18,7 @@ PISTA é o mapa deste livro. Não é fórmula de algoritmo nem método comprovad
 4. **Tentativas:** publique apresentações diferentes, converse e colabore quando houver afinidade.
 5. **Aprendizado:** anote de onde veio o interesse e o que vale repetir, ajustar ou testar.
 
-O percurso não precisa ser perfeito. Precisa estar claro o bastante para você começar e simples o bastante para continuar.
+O percurso não precisa ser perfeito. Precisa estar claro o bastante para você começar e simples o bastante para continuar. Ao terminar cada etapa, escolha o próximo passo concreto.
 
 ## O que este livro pede de você
 

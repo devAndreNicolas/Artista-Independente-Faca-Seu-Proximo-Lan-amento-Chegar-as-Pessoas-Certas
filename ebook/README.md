@@ -1,37 +1,38 @@
 # Oficina do ebook PISTA
 
-Pipeline local para transformar fontes em capítulos claros, auditáveis e publicáveis. O projeto começa sem dependências externas: Python padrão para indexação lexical e EPUB 3.
+Pipeline local, guiado por especificações, para transformar fontes em capítulos claros, auditáveis e publicáveis. Busca lexical, validação e compilação EPUB/PDF funcionam com a biblioteca padrão do Python, inclusive sem rede.
 
 ## Estrutura
 
-- `sources/`: cópias e novas fontes que alimentam o RAG.
-- `editorial/`: promessa, público, voz, limites de evidência e mapa do livro.
-- `manuscript/`: capítulos em Markdown, um arquivo por capítulo.
-- `src/pista/`: indexação, recuperação, checagem e compilação.
-- `data/`: índice regenerável.
-- `build/`: artefatos compilados.
+- `specs/`: produto, editorial, arquitetura e tarefas SDD.
+- `sources/`: fonte-base e documentação que alimentam o RAG.
+- `editorial/`: brief, sumário e critérios de aceite executáveis.
+- `manuscript/`: capítulos Markdown, um arquivo por capítulo.
+- `src/pista/`: indexação, recuperação, validação e compilação.
+- `data/`: índice regenerável; `build/`: artefatos gerados.
 
-## Começar
+## Começar no Windows
 
 ```powershell
 cd ebook
 python -m venv .venv
-..venv\Scripts\Activate.ps1
-python -m pip install -e .
-pista index
-pista search "como coletar feedback"
-pista compile
+.\.venv\Scripts\Activate.ps1
+$env:PYTHONPATH = "src"
+python -m pista.cli index
+python -m pista.cli search "como coletar feedback"
+python -m pista.cli check
+python -m pista.cli compile --format all
 ```
 
-Sem instalar o pacote, use `python -m pista.cli` com `PYTHONPATH=src`.
+Os arquivos ficam em `build/pista.epub` e `build/pista.pdf`. Se a rede estiver disponível, instale o projeto com `python -m pip install -e .` para usar o comando `pista`.
 
-## Fluxo de escrita
+## Ciclo SDD de escrita
 
-1. Coloque fontes `.md` ou `.txt` em `sources/`.
-2. Rode `pista index` para dividir por títulos e parágrafos e atualizar o índice local.
-3. Rode `pista search "pergunta do capítulo" --top 6` e use as passagens com citação de arquivo/seção.
-4. Escreva no capítulo em `manuscript/`. Preserve o que é regra documentada, relato, hipótese editorial ou exemplo ilustrativo.
-5. Rode `pista check` para conferir estrutura e referências locais.
-6. Rode `pista compile` para criar `build/pista.epub`.
+1. Atualize uma especificação e os critérios de aceite antes de mudar o livro ou o harness.
+2. Divida a mudança em tarefas pequenas em `specs/03-tarefas.md`.
+3. Indexe fontes e recupere passagens com `search`; anote arquivo e seção.
+4. Redija com Codex no manuscrito. Diferencie fatos oficiais, relatos, recomendações e hipóteses.
+5. Rode `check`, corrija os bloqueios e compile ambos formatos.
+6. Revise visualmente e humanamente antes de publicar.
 
-O índice lexical ajuda a encontrar trechos; ele não valida fatos nem substitui leitura da fonte. Para adicionar embeddings/LLM no futuro, mantenha as interfaces `index`, `search` e `compile` estáveis e troque somente o backend de recuperação/geração. Nenhuma chave de API é necessária para o fluxo atual.
+O índice lexical ajuda a localizar trechos; não verifica fatos nem substitui a leitura da fonte. Nenhuma chave de API é necessária.

@@ -8,3 +8,4 @@
 6. `06-lancamento.md` — D0 e primeira semana: operação, resposta e novos caminhos para a faixa.
 7. `07-aprendizado.md` — Métricas, revisão de 28 dias, dinheiro e próximo experimento.
 8. `08-plano.md` — Folhas práticas, checklist e plano preenchível.
+9. `09-referencias.md` — Fontes oficiais, serviços, relatos e data de consulta.

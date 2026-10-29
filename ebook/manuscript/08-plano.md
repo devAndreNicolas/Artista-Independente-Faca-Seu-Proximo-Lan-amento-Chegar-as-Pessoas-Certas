@@ -1,53 +1,61 @@
 # Seu plano de lançamento
 
-Use esta página como ponto de partida. Respostas simples são suficientes. Atualize o plano quando a data, os recursos ou a faixa mudarem.
+Preencha o que já sabe e marque as dúvidas. Respostas simples bastam. Atualize o plano se a data, a faixa ou seus recursos mudarem.
 
-## A faixa
+## 1. A faixa
 
 - Nome e duração:
-- Data desejada e distribuidora:
-- Direitos, créditos e participações conferidos:
-- Situação da master e da arte:
+- Data desejada:
+- Distribuidora e prazo recomendado:
+- Master finalizada?
+- Direitos, créditos, splits, samples e participações conferidos?
+- Capa e metadados prontos?
 
-## As pessoas
+## 2. As pessoas
 
-- Referências musicais:
+- Duas ou três referências musicais:
 - Situação em que a faixa pode fazer sentido:
-- Uma frase verdadeira sobre a música:
+- Uma frase verdadeira sobre por que a música existe:
 - Trecho A e horário:
 - Trecho B e horário:
+- O que quero que alguém perceba:
 
-## O caminho
+## 3. O caminho
 
 - Perfil de artista conferido:
-- Link que será divulgado:
-- Ferramentas já disponíveis:
-- Convite antes da estreia:
-- Convite depois da estreia:
+- Link principal e destinos testados:
+- Ferramentas realmente disponíveis:
+- Convite antes do lançamento:
+- Convite depois do lançamento:
+- Quem pediu lembrete e por qual canal consentiu?
 
-## Sua realidade
+## 4. Sua realidade
 
-- Horas por semana:
+- Horas disponíveis por semana:
 - Orçamento máximo que posso perder:
-- Pessoas e equipamento disponíveis:
+- Pessoas, equipamento e lugares disponíveis:
 - O que não vou fazer neste lançamento:
+- Qual é o próximo passo possível nesta semana?
 
-## Três decisões do piloto
+## 5. Seu experimento
 
-- Repetir:
-- Ajustar:
-- Testar:
+- Hipótese:
+- Peça ou ação que vou testar:
+- Sinal que vou observar:
+- Quando vou revisar:
+- O que faria repetir, ajustar ou interromper?
 
-## Checklist curto
+## Checklist
 
-- [ ] Faixa, créditos e direitos conferidos.
-- [ ] Data compatível com os prazos de distribuição.
-- [ ] Público e frase de apresentação definidos.
-- [ ] Dois trechos escolhidos para testar.
-- [ ] Link conferido no celular.
-- [ ] Publicações essenciais preparadas.
+- [ ] Direitos, créditos e dados da faixa conferidos.
+- [ ] Data compatível com o prazo da distribuidora.
+- [ ] Público, frase e dois trechos definidos.
+- [ ] Link testado no celular.
+- [ ] Recursos de plataforma confirmados na minha conta.
+- [ ] Peças e anúncios essenciais preparados.
 - [ ] Lembretes enviados somente a quem consentiu.
-- [ ] Reações, dados, horas e gastos registrados.
-- [ ] Revisão feita em D+7 e D+28.
+- [ ] Horas, custos, respostas e sinais registrados.
+- [ ] Revisão agendada para D+7 e D+28.
+- [ ] Próximo teste escolhido com base no que aconteceu.
 
-Você não precisa fazer tudo de uma vez. Escolha o próximo passo possível e faça-o com cuidado. Que este trabalho leve sua música a quem pode encontrar nela companhia, alegria, memória ou sentido — e que cada lançamento também ensine você a cuidar melhor do próximo.
+Você não precisa fazer tudo hoje. Escolha o próximo passo possível e faça-o com cuidado. Uma faixa pode oferecer companhia, alegria, memória ou sentido a alguém; que o processo também ajude você a cuidar melhor do próximo lançamento.

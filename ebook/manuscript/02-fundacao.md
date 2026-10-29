@@ -47,7 +47,7 @@ Uma ferramenta é um meio. A pergunta é: ela deixa o próximo passo mais fácil
 | Restrições | Horas disponíveis, orçamento e ajuda |
 | Ponto de partida | Seguidores e dados recentes, ou zero se estiver começando |
 
-**Entrega:** uma página preenchida, mesmo que algumas respostas sejam provisórias.
+**Entrega:** uma página preenchida, mesmo que algumas respostas sejam provisórias. Inclua também suas restrições de tempo, dinheiro e apoio disponível.
 
 **Observe:** dúvidas sobre direitos, data ou distribuição. Resolva-as antes de começar a divulgar como se a estreia estivesse confirmada.
 

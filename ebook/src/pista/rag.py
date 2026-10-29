@@ -24,7 +24,8 @@ def split_markdown(path: Path, root: Path) -> list[dict]:
         body = "\n".join(buf).strip()
         if body:
             chunks.append({"source": path.relative_to(root).as_posix(), "section": title,
-                           "text": body, "tokens": tokens(title + " " + body)})
+                           "text": body, "tokens": tokens(title + " " + body),
+                           "chunk": len(chunks) + 1})
 
     for line in text.splitlines():
         if line.startswith("#"):
@@ -51,6 +52,8 @@ def build_index(root: Path, output: Path) -> int:
 
 
 def search(root: Path, query: str, limit: int = 6) -> list[tuple[float, dict]]:
+    if limit < 1:
+        raise ValueError("--top precisa ser pelo menos 1.")
     path = root / "data" / "index.json"
     if not path.exists():
         raise FileNotFoundError("Índice ausente. Rode `pista index` primeiro.")

@@ -1,0 +1,38 @@
+[[chapter]]
+file = "01-comeco.md"
+required = ["PISTA", "limites", "próximo passo"]
+
+[[chapter]]
+file = "02-fundacao.md"
+required = ["direitos", "público", "trecho", "link", "restrições"]
+
+[[chapter]]
+file = "03-antes.md"
+required = ["D−35", "feedback", "distribuidora", "D−1", "entrega"]
+
+[[chapter]]
+file = "04-conteudo.md"
+required = ["vinte", "performance", "convite", "consentimento", "registro"]
+
+[[chapter]]
+file = "05-relacoes.md"
+required = ["conversa", "colaboração", "créditos", "consentimento"]
+
+[[chapter]]
+file = "06-lancamento.md"
+required = ["D0", "D+1", "D+7", "D+28", "link"]
+
+[[chapter]]
+file = "07-aprendizado.md"
+required = ["métricas", "custo", "hipótese", "28 dias", "streams artificiais"]
+
+[[chapter]]
+file = "08-plano.md"
+required = ["checklist", "orçamento", "próximo teste", "direitos"]
+
+[[chapter]]
+file = "09-referencias.md"
+required = ["Data de consulta", "Spotify", "YouTube", "Fontes do método"]
+
+[rules]
+minimum_words_per_chapter = 150
